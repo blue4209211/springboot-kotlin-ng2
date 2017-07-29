@@ -6,11 +6,14 @@ Starter project inspired from Angular Hero App (https://angular.io/tutorial). It
  - spring-boot-jpa
  - angular 4
 
- Running App --
- - Can be run using maven command >> spring-boot:run
- - Can be Deployed to tomcat
+Running App --
+ - Maven command >> spring-boot:run
+ - or Tomcat
  - For developing ng4 app run following command from ng2app dir >> ng build -w -op ../webapp
  
+Config DB --
+ - Application is at present using h2db
+ - Update application.properties for config new DB
  
 Project structure --
  - src/main/kotlin -> kotlin application backend based on spring-boot
