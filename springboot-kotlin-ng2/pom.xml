@@ -249,6 +249,7 @@
 							<executable>${ng.executable}</executable>
 							<arguments>
 								<argument>build</argument>
+								<argument>--aot</argument>
 								<argument>--outputPath</argument>
 								<argument>${project.basedir}/src/main/webapp</argument>
 							</arguments>
